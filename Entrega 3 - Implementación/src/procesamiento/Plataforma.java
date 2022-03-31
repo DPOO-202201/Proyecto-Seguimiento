@@ -1,12 +1,19 @@
 package procesamiento;
 
 import java.util.ArrayList;
+import model.Proyecto;
 
 public class Plataforma
 {
-	static ArrayList<String[]> matrizParticipantes = new ArrayList<String[]>();
-	public participante registrarParticipante()
-	{
+	private ArrayList<Proyecto> proyectos;
 	
+	public void registrarParticipante(String nombre, String correo)
+	{
+		
 	}
+	public void crearProyecto()
+	{
+		
+	}
+	
 }
